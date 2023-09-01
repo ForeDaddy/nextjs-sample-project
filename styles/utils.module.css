@@ -50,3 +50,16 @@
 .lightText {
   color: #666;
 }
+.devNotes {
+  color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-width: 5px;
+  border-color: green;
+  border-radius: 5px;
+  border-style: dotted;
+  padding: 15px;
+  margin: 25px;
+}

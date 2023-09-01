@@ -18,6 +18,18 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
+      <section>
+        <div className={utilStyles.devNotes}>
+          <div>
+            <h2>Current Place in Tutorial: </h2>
+          </div>
+          <div>
+            <a href="https://nextjs.org/learn/basics/dynamic-routes">
+              Pickup Where you left off
+            </a>
+          </div>
+        </div>
+      </section>
       <section className={utilStyles.headingMd}>
         <p>
           As a passionate and skilled full stack software engineer, I am excited
